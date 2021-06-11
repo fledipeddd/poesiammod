@@ -7,7 +7,7 @@
 	overflow-x: hidden;
 }
 
-div.header {
+a.header {
 	z-index: 3;
 	position: fixed;
 	font-size: 12pt;
@@ -87,11 +87,11 @@ div.header:hover + div.abstract {
 		width: 100%;
 	}
 	
-	div.header:active + div.abstract {
+	a.header:active + div.abstract {
 	display: block;
 	}
 	
 	div.bg {
-	margin-top: 600px;
+	margin-top: 450px;
 	}
 }
