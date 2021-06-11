@@ -9,6 +9,7 @@
 
 a.header {
 	z-index: 3;
+	text-decoration: none;
 	position: fixed;
 	font-size: 12pt;
 	color: rgb(255, 70, 50);
