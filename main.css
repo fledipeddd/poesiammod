@@ -86,6 +86,10 @@ div.header:hover + div.abstract {
 	.abstract {
 		width: 100%;
 	}
+	
+	div.header:active + div.abstract {
+		display: block;
+	}
 }
 
 
