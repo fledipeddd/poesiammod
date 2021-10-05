@@ -87,8 +87,8 @@ div.header:hover + div.abstract {
 		width: 100%;
 	}
 	
-	div.header:active + div.abstract {
-		display: block;
+	div.link {
+		display: none;	
 	}
 }
 
