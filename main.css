@@ -55,4 +55,8 @@ div.header:hover {
 	#abstract {
 		width: 100%;
 	}
+	
+	div.header:hover {
+		text-decoration: none;
+	}
 }
