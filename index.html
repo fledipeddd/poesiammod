@@ -9,17 +9,11 @@
 
 <body>
 
-	<div class="header">POESIA MODALE</div>
+	<div class="header" onclick="showHide()">POESIA MODALE</div>
 	
-	<div class="abstract">Poesia modale &egrave; un'ambiente di scrittura che sovverte le convenzioni ed il concetto di scrittura canonico, invece di adattarsi al tempo e alla volont&agrave; di chi scrive, segue le sue leggi ed ha un suo temperamento. Interpreta la forma, abolisce il significato e la struttura del testo cos&igrave; producendo poesie nonostante gli intenti.
+	<div id="abstract">Poesia modale &egrave; un'ambiente di scrittura che sovverte le convenzioni ed il concetto di scrittura canonico, invece di adattarsi al tempo e alla volont&agrave; di chi scrive, segue le sue leggi ed ha un suo temperamento. Interpreta la forma, abolisce il significato e la struttura del testo cos&igrave; producendo poesie nonostante gli intenti.
 	<br><br>
 	Tentando di scrivere sarai impossibilitato, ci&ograve; che resta &egrave; cercare nuovi sistemi, adattarsi alla disgregazione della parola e riscoprirne il segno. Scrivere significa costruire il linguaggio, non spiegarlo.</div>
-
-	<div class="bg">
-		<div class="link">
-		<a href="https://drive.google.com/drive/folders/1V-NgTVeh_135JHJBC5G2cdnVCEssMPbJ?usp=sharing" target="_blank">Clicca per scaricare l'applicazione</a>
-		</div>
-	</div>
 
 	<div class="griglia">
 		<img src="img/ps01.png">
@@ -78,17 +72,18 @@
 	<div id="container">
 		<div id="animation"></div>
 	</div>
+
+	<script>
+	function showHide() {
+	var boxTesto = document.getElementById('abstract');
+		if (boxTesto.style.display == "block") {
+			boxTesto.style.display = "none";
+		} else {
+			boxTesto.style.display = "block";
+		}
+	}
+	</script>
+
 </body>
 
 </html>
-
-
-
-
-
-
-
-
-
-
-
